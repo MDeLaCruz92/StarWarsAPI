@@ -10,6 +10,9 @@
 		2AC84AF8A5236DEE1D8A405D /* Pods_StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AA00C47183294437C7DFA /* Pods_StarWarsAPI.framework */; };
 		5F2AA4431EA872A4007FA4CE /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AA4421EA872A4007FA4CE /* InfoView.xib */; };
 		5F2AA4451EA87314007FA4CE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AA4441EA87314007FA4CE /* InfoView.swift */; };
+		5F2AA4951EA93F5C007FA4CE /* EntryPointTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AA4941EA93F5C007FA4CE /* EntryPointTableViewController.swift */; };
+		5F2AA4971EA94D87007FA4CE /* EntryPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AA4961EA94D87007FA4CE /* EntryPointCell.swift */; };
+		5F2AA4991EA94EF8007FA4CE /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AA4981EA94EF8007FA4CE /* EntryModel.swift */; };
 		823AFC7E1E877DD300483924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC7D1E877DD300483924 /* AppDelegate.swift */; };
 		823AFC801E877DD300483924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC7F1E877DD300483924 /* ViewController.swift */; };
 		823AFC831E877DD300483924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823AFC811E877DD300483924 /* Main.storyboard */; };
@@ -20,7 +23,7 @@
 		823AFC9C1E89957D00483924 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC9B1E89957D00483924 /* Vehicles.swift */; };
 		823AFC9E1E89959F00483924 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC9D1E89959F00483924 /* Starships.swift */; };
 		823AFCA01E89995700483924 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC9F1E89995700483924 /* Datasource.swift */; };
-		823AFCA31E89F49E00483924 /* CharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA21E89F49E00483924 /* CharacterVC.swift */; };
+		823AFCA31E89F49E00483924 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA21E89F49E00483924 /* DestinationViewController.swift */; };
 		823AFCA61E89F52500483924 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA51E89F52500483924 /* VehiclesVC.swift */; };
 		823AFCA81E89F53700483924 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA71E89F53700483924 /* StarshipsVC.swift */; };
 		82A8E2251EA8694B00E6E77C /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8E2241EA8694B00E6E77C /* ServiceModel.swift */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		5F2AA4421EA872A4007FA4CE /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
 		5F2AA4441EA87314007FA4CE /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5F2AA4941EA93F5C007FA4CE /* EntryPointTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryPointTableViewController.swift; sourceTree = "<group>"; };
+		5F2AA4961EA94D87007FA4CE /* EntryPointCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryPointCell.swift; sourceTree = "<group>"; };
+		5F2AA4981EA94EF8007FA4CE /* EntryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
 		823AFC7A1E877DD300483924 /* StarWarsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		823AFC7D1E877DD300483924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		823AFC7F1E877DD300483924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +47,7 @@
 		823AFC9B1E89957D00483924 /* Vehicles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
 		823AFC9D1E89959F00483924 /* Starships.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
 		823AFC9F1E89995700483924 /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
-		823AFCA21E89F49E00483924 /* CharacterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterVC.swift; sourceTree = "<group>"; };
+		823AFCA21E89F49E00483924 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		823AFCA51E89F52500483924 /* VehiclesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
 		823AFCA71E89F53700483924 /* StarshipsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
 		82A8E2241EA8694B00E6E77C /* ServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 				823AFC841E877DD300483924 /* Assets.xcassets */,
 				823AFC861E877DD300483924 /* LaunchScreen.storyboard */,
 				823AFC891E877DD300483924 /* Info.plist */,
+				823AFC7F1E877DD300483924 /* ViewController.swift */,
+				823AFCA51E89F52500483924 /* VehiclesVC.swift */,
+				823AFCA71E89F53700483924 /* StarshipsVC.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -104,7 +113,6 @@
 		823AFC7C1E877DD300483924 /* StarWarsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				823AFC961E896F4B00483924 /* Service */,
 				823AFC911E8780B500483924 /* Model */,
 				823AFC901E8780A700483924 /* View */,
 				823AFC8F1E8780A000483924 /* Controller */,
@@ -116,10 +124,8 @@
 		823AFC8F1E8780A000483924 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				823AFC7F1E877DD300483924 /* ViewController.swift */,
-				823AFCA21E89F49E00483924 /* CharacterVC.swift */,
-				823AFCA51E89F52500483924 /* VehiclesVC.swift */,
-				823AFCA71E89F53700483924 /* StarshipsVC.swift */,
+				5F2AA4941EA93F5C007FA4CE /* EntryPointTableViewController.swift */,
+				823AFCA21E89F49E00483924 /* DestinationViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			children = (
 				5F2AA4441EA87314007FA4CE /* InfoView.swift */,
 				5F2AA4421EA872A4007FA4CE /* InfoView.xib */,
+				5F2AA4961EA94D87007FA4CE /* EntryPointCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -136,11 +143,12 @@
 		823AFC911E8780B500483924 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				823AFC961E896F4B00483924 /* Service */,
 				823AFC991E89953B00483924 /* Person.swift */,
 				823AFC9B1E89957D00483924 /* Vehicles.swift */,
 				823AFC9D1E89959F00483924 /* Starships.swift */,
 				823AFC9F1E89995700483924 /* Datasource.swift */,
-				82A8E2241EA8694B00E6E77C /* ServiceModel.swift */,
+				5F2AA4981EA94EF8007FA4CE /* EntryModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				823AFC971E896F5800483924 /* Service.swift */,
+				82A8E2241EA8694B00E6E77C /* ServiceModel.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -291,12 +300,15 @@
 				823AFCA81E89F53700483924 /* StarshipsVC.swift in Sources */,
 				823AFCA61E89F52500483924 /* VehiclesVC.swift in Sources */,
 				5F2AA4451EA87314007FA4CE /* InfoView.swift in Sources */,
-				823AFCA31E89F49E00483924 /* CharacterVC.swift in Sources */,
+				5F2AA4971EA94D87007FA4CE /* EntryPointCell.swift in Sources */,
+				823AFCA31E89F49E00483924 /* DestinationViewController.swift in Sources */,
 				82A8E2251EA8694B00E6E77C /* ServiceModel.swift in Sources */,
 				823AFC9E1E89959F00483924 /* Starships.swift in Sources */,
+				5F2AA4991EA94EF8007FA4CE /* EntryModel.swift in Sources */,
 				823AFC981E896F5800483924 /* Service.swift in Sources */,
 				823AFC7E1E877DD300483924 /* AppDelegate.swift in Sources */,
 				823AFC9C1E89957D00483924 /* Vehicles.swift in Sources */,
+				5F2AA4951EA93F5C007FA4CE /* EntryPointTableViewController.swift in Sources */,
 				823AFCA01E89995700483924 /* Datasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

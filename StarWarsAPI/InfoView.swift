@@ -16,9 +16,7 @@ class InfoView: UIView {
     @IBOutlet private weak var heightLabel: UILabel?
     @IBOutlet private weak var eyesLabel: UILabel?
     @IBOutlet private weak var hairLabel: UILabel?
-//    @IBOutlet weak var nameLabel: UILabel?
-//    @IBOutlet weak var smallestNameLabel: UILabel?
-//    @IBOutlet weak var largestNameLabel: UILabel?
+
     
     override init(frame: CGRect) {
         super.init(frame: frame)
