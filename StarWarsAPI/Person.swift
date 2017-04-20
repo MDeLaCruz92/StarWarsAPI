@@ -16,6 +16,7 @@ struct Person: JSONDecodable {
   let height: String
   let eyes: String
   let hair: String
+  let home:String
   
   init(json: JSON) {
     self.characters = json["name"].stringValue
@@ -23,5 +24,6 @@ struct Person: JSONDecodable {
     self.height = json["height"].stringValue
     self.eyes = json["eye_color"].stringValue
     self.hair = json["hair_color"].stringValue
+    self.home = json["homeworld"].stringValue
   }
 }

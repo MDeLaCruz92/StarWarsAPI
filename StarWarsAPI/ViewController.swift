@@ -32,6 +32,13 @@ class ViewController: UIViewController {
   
 
 }
+extension ViewController:ServiceModelDelegate {
+
+  func didReceiveDataFromService(data: Datasource) {
+      print(data.people.first)
+  }
+}
+
 
 /*
  if let err = err {
@@ -44,12 +51,5 @@ class ViewController: UIViewController {
  }
  return
  }
-
+ 
  */
-
-extension ViewController:ServiceModelDelegate {
-
-  func didReceiveDataFromService(data: Datasource) {
-      print(data.people.first)
-  }
-}
