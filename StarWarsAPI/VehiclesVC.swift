@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  VehiclesVC.swift
 //  StarWarsAPI
 //
 //  Created by Michael De La Cruz on 3/27/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class VehiclesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

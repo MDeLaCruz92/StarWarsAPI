@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AC84AF8A5236DEE1D8A405D /* Pods_StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AA00C47183294437C7DFA /* Pods_StarWarsAPI.framework */; };
 		823AFC7E1E877DD300483924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC7D1E877DD300483924 /* AppDelegate.swift */; };
 		823AFC801E877DD300483924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC7F1E877DD300483924 /* ViewController.swift */; };
 		823AFC831E877DD300483924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823AFC811E877DD300483924 /* Main.storyboard */; };
 		823AFC851E877DD300483924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823AFC841E877DD300483924 /* Assets.xcassets */; };
 		823AFC881E877DD300483924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823AFC861E877DD300483924 /* LaunchScreen.storyboard */; };
-		823AFC931E87956900483924 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC921E87956900483924 /* Entities.swift */; };
-		823AFC951E88CD4F00483924 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC941E88CD4F00483924 /* DetailViewController.swift */; };
+		823AFC981E896F5800483924 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC971E896F5800483924 /* Service.swift */; };
+		823AFC9A1E89953B00483924 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC991E89953B00483924 /* Person.swift */; };
+		823AFC9C1E89957D00483924 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC9B1E89957D00483924 /* Vehicles.swift */; };
+		823AFC9E1E89959F00483924 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC9D1E89959F00483924 /* Starships.swift */; };
+		823AFCA01E89995700483924 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFC9F1E89995700483924 /* Datasource.swift */; };
+		823AFCA31E89F49E00483924 /* CharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA21E89F49E00483924 /* CharacterVC.swift */; };
+		823AFCA61E89F52500483924 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA51E89F52500483924 /* VehiclesVC.swift */; };
+		823AFCA81E89F53700483924 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823AFCA71E89F53700483924 /* StarshipsVC.swift */; };
+		82A8E2251EA8694B00E6E77C /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8E2241EA8694B00E6E77C /* ServiceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +32,18 @@
 		823AFC841E877DD300483924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823AFC871E877DD300483924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823AFC891E877DD300483924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		823AFC921E87956900483924 /* Entities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
-		823AFC941E88CD4F00483924 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		823AFC971E896F5800483924 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		823AFC991E89953B00483924 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		823AFC9B1E89957D00483924 /* Vehicles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		823AFC9D1E89959F00483924 /* Starships.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		823AFC9F1E89995700483924 /* Datasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
+		823AFCA21E89F49E00483924 /* CharacterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterVC.swift; sourceTree = "<group>"; };
+		823AFCA51E89F52500483924 /* VehiclesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		823AFCA71E89F53700483924 /* StarshipsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
+		82A8E2241EA8694B00E6E77C /* ServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		9C6AA00C47183294437C7DFA /* Pods_StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE0C85E5011444274890C4E /* Pods-StarWarsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsAPI/Pods-StarWarsAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		CDECB15586765FA48D0855CB /* Pods-StarWarsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsAPI/Pods-StarWarsAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC84AF8A5236DEE1D8A405D /* Pods_StarWarsAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A12D381B485CB9B1D6C743A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0C85E5011444274890C4E /* Pods-StarWarsAPI.debug.xcconfig */,
+				CDECB15586765FA48D0855CB /* Pods-StarWarsAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		823AFC711E877DD300483924 = {
 			isa = PBXGroup;
 			children = (
 				823AFC7C1E877DD300483924 /* StarWarsAPI */,
 				823AFC7B1E877DD300483924 /* Products */,
+				5A12D381B485CB9B1D6C743A /* Pods */,
+				82AF10BA09F575CF58377D1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +88,7 @@
 		823AFC7C1E877DD300483924 /* StarWarsAPI */ = {
 			isa = PBXGroup;
 			children = (
+				823AFC961E896F4B00483924 /* Service */,
 				823AFC911E8780B500483924 /* Model */,
 				823AFC901E8780A700483924 /* View */,
 				823AFC8F1E8780A000483924 /* Controller */,
@@ -74,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				823AFC7F1E877DD300483924 /* ViewController.swift */,
-				823AFC941E88CD4F00483924 /* DetailViewController.swift */,
+				823AFCA21E89F49E00483924 /* CharacterVC.swift */,
+				823AFCA51E89F52500483924 /* VehiclesVC.swift */,
+				823AFCA71E89F53700483924 /* StarshipsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -89,9 +122,29 @@
 		823AFC911E8780B500483924 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				823AFC921E87956900483924 /* Entities.swift */,
+				823AFC991E89953B00483924 /* Person.swift */,
+				823AFC9B1E89957D00483924 /* Vehicles.swift */,
+				823AFC9D1E89959F00483924 /* Starships.swift */,
+				823AFC9F1E89995700483924 /* Datasource.swift */,
+				82A8E2241EA8694B00E6E77C /* ServiceModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		823AFC961E896F4B00483924 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				823AFC971E896F5800483924 /* Service.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		82AF10BA09F575CF58377D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C6AA00C47183294437C7DFA /* Pods_StarWarsAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 823AFC8C1E877DD300483924 /* Build configuration list for PBXNativeTarget "StarWarsAPI" */;
 			buildPhases = (
+				BE8D9BBF54A9583E2772EBBE /* [CP] Check Pods Manifest.lock */,
 				823AFC761E877DD300483924 /* Sources */,
 				823AFC771E877DD300483924 /* Frameworks */,
 				823AFC781E877DD300483924 /* Resources */,
+				BFF241F62AA19C5F12278628 /* [CP] Embed Pods Frameworks */,
+				434A2527509AB685D35931F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,15 +218,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		434A2527509AB685D35931F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsAPI/Pods-StarWarsAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE8D9BBF54A9583E2772EBBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF241F62AA19C5F12278628 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsAPI/Pods-StarWarsAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		823AFC761E877DD300483924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823AFC931E87956900483924 /* Entities.swift in Sources */,
+				823AFC9A1E89953B00483924 /* Person.swift in Sources */,
 				823AFC801E877DD300483924 /* ViewController.swift in Sources */,
+				823AFCA81E89F53700483924 /* StarshipsVC.swift in Sources */,
+				823AFCA61E89F52500483924 /* VehiclesVC.swift in Sources */,
+				823AFCA31E89F49E00483924 /* CharacterVC.swift in Sources */,
+				82A8E2251EA8694B00E6E77C /* ServiceModel.swift in Sources */,
+				823AFC9E1E89959F00483924 /* Starships.swift in Sources */,
+				823AFC981E896F5800483924 /* Service.swift in Sources */,
 				823AFC7E1E877DD300483924 /* AppDelegate.swift in Sources */,
-				823AFC951E88CD4F00483924 /* DetailViewController.swift in Sources */,
+				823AFC9C1E89957D00483924 /* Vehicles.swift in Sources */,
+				823AFCA01E89995700483924 /* Datasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +400,7 @@
 		};
 		823AFC8D1E877DD300483924 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE0C85E5011444274890C4E /* Pods-StarWarsAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UP5S927B5L;
@@ -302,6 +414,7 @@
 		};
 		823AFC8E1E877DD300483924 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDECB15586765FA48D0855CB /* Pods-StarWarsAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UP5S927B5L;
@@ -332,6 +445,7 @@
 				823AFC8E1E877DD300483924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
